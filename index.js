@@ -7,7 +7,7 @@ const port = process.env.PORT || 3000;
 app.use(cors());
 
 app.get('/', (req, res) => {
-  res.json({ url: 'https://www.google.com' });
+  res.json({ url: 'https://zues-fortune-palace.onrender.com/' });
 });
 
 app.listen(port, () => {
