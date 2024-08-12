@@ -7,8 +7,10 @@ const port = process.env.PORT || 3000;
 app.use(cors());
 
 app.get('/', (req, res) => {
-  res.json({ url: 'https://lucky-rabbit-reels.onrender.com' });
-  res.json({ url1: 'https://jogo558.com/index?type=4&channelId=5452' });
+  res.json({
+    url: 'https://lucky-rabbit-reels.onrender.com',
+    url1: 'https://jogo558.com/index?type=4&channelId=5452'
+  });
 });
 
 app.listen(port, () => {
